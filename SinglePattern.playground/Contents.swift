@@ -13,9 +13,8 @@ class BoardGameManager{
 
 
 let boardGame = BoardGameManager.sharedInstance
-boardGame.name = "Board Game Manager 1"
+boardGame.name = "Board Game Manager"
 
-let b = BoardGameManager.sharedInstance
-b.name = "Chung Mai"
+let boardGame1 = BoardGameManager.sharedInstance
 
-print(boardGame.name!)
+print(boardGame1.name!)
