@@ -40,5 +40,4 @@ class BoardGameManager{
     print(boardGame1.name!)
 ```
 
-With the value is printed, you see that the name of second object was not assigned but It still have value the same as the first instance.(*Actually 
-both of them refer to only one instance*)
+With the value is printed, you see that the name of second object was not assigned but It still have value the same as the first instance.(**Actually both of them refer to only one instance**)
